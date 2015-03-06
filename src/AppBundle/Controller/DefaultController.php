@@ -104,6 +104,14 @@ class DefaultController extends Controller
      * V
      */
 
+    /**
+     * @Route("/gdzie-sie-z-checia.html", name="gdzie-sie-z-checia")
+     */
+    public function gdzieSieZCheciaAction()
+    {
+        return $this->render('default/gdzie-sie-z-checia.html.twig');
+    }
+
     /*
      * W
      */
