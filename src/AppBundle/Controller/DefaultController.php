@@ -59,6 +59,13 @@ class DefaultController extends Controller
     /*
      * F
      */
+    /**
+ * @Route("/Aby-do-wiosny.html", name="Aby-do-wiosny")
+ */
+    public function AbydowiosnyAction()
+{
+    return $this->render('default/Aby-do-wiosny.html.twig');
+}
 
     /*
      * G
