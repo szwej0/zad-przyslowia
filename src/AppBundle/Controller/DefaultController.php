@@ -61,6 +61,14 @@ class DefaultController extends Controller
     /*
      * I
      */
+    
+    /**
+    * @Route("/im-dab-starszy.html", name="im-dab-starszy")
+    */
+    public function ImDabStarszyAction()
+    {
+    return $this->render('default/im-dab-starszy.html.twig');
+    }   
 
     /*
      * J
