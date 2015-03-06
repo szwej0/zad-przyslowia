@@ -78,6 +78,13 @@ public function coglupistraciAction()
     /*
      * N
      */
+/**
+ * @Route("/co-nie-sila.html", name="co-nie-sila")
+ */
+public function coniesilaAction()
+{
+    return $this->render('default/co-nie-sila.html.twig');
+}  
 
     /*
      * O
