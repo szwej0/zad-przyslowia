@@ -35,7 +35,17 @@ class DefaultController extends Controller
     /*
      * E
      */
-
+    
+    
+    /**
+    * @Route("/bez-matki.html", name="bez matki")
+    */
+    public function bezmatkiAction()
+    {
+    return $this->render('default/bez-matki.html.twig');
+    }
+    
+    
     /*
      * F
      */
