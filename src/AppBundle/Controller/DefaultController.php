@@ -42,7 +42,7 @@ class DefaultController extends Controller
     /**
  * @Route("/Aby-do-wiosny.html", name="Aby-do-wiosny")
  */
-    public function gdzieSieZCheciaAction()
+    public function AbydowiosnyAction()
 {
     return $this->render('default/Aby-do-wiosny.html.twig');
 }
