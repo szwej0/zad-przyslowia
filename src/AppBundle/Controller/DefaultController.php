@@ -100,6 +100,14 @@ public function gdykotaniemaAction ()
     /*
      * P
      */
+/**
+ * @Route("/dlachcacego.html", name="dlachcacego")
+ */
+
+public function dlachcacegoAction ()
+{
+    return $this->render('default/dlachcacego.html.twig');
+}
 
     /*
      * Q
