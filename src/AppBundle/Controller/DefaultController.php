@@ -27,6 +27,13 @@ class DefaultController extends Controller
     /*
      * C
      */
+    /**
+ * @Route("/co-glupi-straci.html", name="co-glupi-straci")
+ */
+public function coglupistraciAction()
+{
+    return $this->render('default/co-glupi-straci.html.twig');
+}
 
     /*
      * D
