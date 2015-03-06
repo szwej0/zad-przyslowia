@@ -23,7 +23,13 @@ class DefaultController extends Controller
     /*
      * B
      */
-
+    /**
+    * @Route("/bogatemu-to.html", name="bogatemu-to")
+    */
+    public function bogatemuToAction()
+    {
+        return $this->render('default/bogatemu-to.html.twig');
+    }
     /*
      * C
      */
