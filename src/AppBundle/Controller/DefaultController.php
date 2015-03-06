@@ -89,6 +89,13 @@ public function coniesilaAction()
     /*
      * O
      */
+/**
+ * @Route("/gdy-kota-niema.html", name="gdy-kota-niema")
+ */
+public function gdykotaniemaAction ()
+{
+    return $this->render('default/gdy-kota-niema.html.twig');
+}
 
     /*
      * P
