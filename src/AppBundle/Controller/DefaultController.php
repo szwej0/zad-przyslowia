@@ -126,7 +126,13 @@ class DefaultController extends Controller
     /*
      * S
      */
-
+    /**
+     * @Route("/jak-sobie.html", name="jak-sobie")
+     */
+    public function jakSobieAction()
+    {
+        return $this->render('default/jak-sobie.html.twig');
+    }
     /*
      * T
      */
