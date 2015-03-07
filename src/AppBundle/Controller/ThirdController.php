@@ -11,7 +11,13 @@ class ThirdController extends Controller
     /*
      * A
      */
-
+    /**
+     * @Route("/nie-rzucaj-perel.html", name="nie-rzucaj-perel")
+     */
+    public function nieRzucajPerelAction()
+    {
+        return $this->render('default/nie-rzucaj-perel.html.twig');
+    }
     /*
      * B
      */
