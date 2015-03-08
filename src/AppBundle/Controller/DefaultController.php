@@ -82,6 +82,14 @@ class DefaultController extends Controller
      * H
      */
 
+    /**
+    * @Route("/suchy-marzec.html", name="suchy-marzec")
+    */
+    public function suchyMarzecAction()
+    {
+        return $this->render('default/suchy-marzec.html.twig');
+    }
+
     /*
      * I
      */
