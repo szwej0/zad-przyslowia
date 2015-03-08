@@ -122,6 +122,14 @@ class DefaultController extends Controller
      * P
      */
 
+    /**
+     * @Route("/szewc-bez.html", name="szewc-bez")
+     */
+     public function szewcbezAction()
+     {
+     return $this->render('default/szewc-bez.html.twig');
+     } 
+     
     /*
      * Q
      */
