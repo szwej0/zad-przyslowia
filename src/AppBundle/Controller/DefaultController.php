@@ -130,6 +130,14 @@ class DefaultController extends Controller
      * R
      */
 
+    /**
+     * @Route("/co-za-duzo.html", name="co-za-duzo")
+     */
+      public function coZaDuzoAction()
+     {
+     return $this->render('default/co-za-duzo.html.twig');
+     } 
+      
     /*
      * S
      */
