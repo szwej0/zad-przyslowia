@@ -33,7 +33,13 @@ class ThirdController extends Controller
     /*
      * E
      */
-    
+    /**
+     * @Route("/chlop.html", name="chlop")
+     */
+    public function chlopAction()
+    {
+        return $this->render('default/chlop.html.twig');
+    }
     /*
      * F
      */
