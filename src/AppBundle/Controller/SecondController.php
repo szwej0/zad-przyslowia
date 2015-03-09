@@ -34,7 +34,14 @@ class SecondController extends Controller
     /*
      * E
      */
-
+    
+    /**
+    * @Route("/bo-pic.html", name="bo-pic")
+    */
+    public function bopicAction()
+    {
+        return $this->render('default/bo-pic.html.twig');
+    }
     /*
      * F
      */
