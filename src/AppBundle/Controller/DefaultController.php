@@ -199,6 +199,14 @@ class DefaultController extends Controller
     /*
      * X
      */
+    
+    /**
+    * @Route("/regula-prosta.html", name="regula-prosta")
+    */
+    public function regulaprostaAction()
+    {
+        return $this->render('default/regula-prosta.html.twig');
+    }
 
     /*
      * Y
