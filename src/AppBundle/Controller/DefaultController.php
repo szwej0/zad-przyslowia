@@ -78,6 +78,14 @@ class DefaultController extends Controller
      * G
      */
 
+    /**
+    * @Route("/stare-wino.html", name="stare-wino")
+    */
+    public function stareWinoAction()
+    {
+        return $this->render('default/stare-wino.html.twig');
+    }
+
     /*
      * H
      */
