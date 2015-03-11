@@ -233,9 +233,13 @@ public function ktopodkimdolkiAction()
     
     
 
-    /*
-     * Z
-     */
+    /**
+     * @Route("/zapomnialwol.html", name="zapomnialwol")
+    */
+    public function zapomnialwolAction()
+    {
+        return $this->render('default/zapomnialwol.html.twig');
+    }
 
 
 }
