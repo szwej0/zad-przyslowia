@@ -55,6 +55,14 @@ class ThirdController extends Controller
     /*
      * I
      */
+
+    /**
+     * @Route("/i-kwasne-jablko.html", name="i-kwasne-jablko")
+     */
+    public function iKwasneJablko()
+    {
+        return $this->render('default/i-kwasne-jablko.html.twig');
+    }
     
     /*
      * J
