@@ -129,6 +129,14 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * J
      */
+    /**
+     * @Route("/im-pies-mniej.html",name="im-pies-mniej")
+     */
+    public function impiesmniejAction()
+    {
+        return $this->render('default/im-pies-mniej.html.twig');
+    }
+
 
     /*
      * K
@@ -184,7 +192,6 @@ public function  dwochglupichAction()
     {
     return $this->render('default/glupota-ludzka.html.twig');
     }
-        
     /*
      * P
      */
