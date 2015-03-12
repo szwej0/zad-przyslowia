@@ -125,7 +125,15 @@ class DefaultController extends Controller
     /*
      * M
      */
-
+    
+    /**
+     * @Route("/dlatego-dwie-uszy.html", name="dlatego-dwie-uszy")
+    */
+     public function dlategodwieuszyAction()
+    {
+    return $this->render('default/dlatego-dwie-uszy.html.twig');
+    }
+    
     /*
      * N
      */
