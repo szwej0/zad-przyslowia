@@ -202,6 +202,14 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * Q
      */
+     
+     /**
+    * @Route("/rozmawiajac-z-glupcem.html", name="rozmawiajac-z-glupcem")
+    */
+    public function rozmawiajaczglupcemAction()
+    {
+       return $this->render('default/rozmawiajac-z-glupcem.html.twig');
+    } 
 
     /*
      * R
