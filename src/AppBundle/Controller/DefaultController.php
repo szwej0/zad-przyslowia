@@ -52,6 +52,13 @@ class DefaultController extends Controller
     /*
      * E
      */
+    /**
+ * @Route("/miedzy-powiedzeniem.html", name="mierzy-powiedzeniem")
+ */
+public function  MiedzyPowiedzeniemAction()
+{
+    return $this->render('default/miedzy-powiedzeniem.html.twig');
+}
     
     
     /**
