@@ -30,6 +30,15 @@ class DefaultController extends Controller
     /*
      * B
      */
+    
+    /**
+ * @Route("/bujac-to-las.html", name="bujac-to-las")
+ */
+public function  bujactolasAction()
+{
+    return $this->render('default/bujac-to-las.html.twig');
+}
+    
     /**
     * @Route("/bogatemu-to.html", name="bogatemu-to")
     */
