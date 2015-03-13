@@ -236,6 +236,14 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * V
      */
+    
+    /**
+    * @Route("/i-tygrys-nosi.html", name="i-tygrys-nosi")
+    */
+    public function  iTygrysNosiAction()
+    {
+        return $this->render('default/i-tygrys-nosi.html.twig');
+    }
 
     /**
      * @Route("/gdzie-sie-z-checia.html", name="gdzie-sie-z-checia")
