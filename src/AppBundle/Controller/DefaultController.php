@@ -211,6 +211,15 @@ class DefaultController extends Controller
     /*
      * W
      */
+    
+    /**
+     * @Route("/dobre-lekarstwo.html", name="dobre-lekarstwo")
+    */
+     public function  dobrelekarstwoAction()
+    {
+    return $this->render('default/dobre-lekarstwo.html.twig');
+    }
+    
 
     /*
      * X
