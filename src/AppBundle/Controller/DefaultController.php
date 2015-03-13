@@ -129,7 +129,15 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * J
      */
-
+    
+   /**
+     * @Route("/slowa-nalezy.html", name="slowa-nalezy")
+     */
+     public function slowanalezyAction()
+     {
+        return $this->render('default/slowa-nalezy.html.twig');
+     }
+     
     /*
      * K
      */
@@ -137,6 +145,7 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * L
      */
+
 /**
  * @Route("/dwoch-glupich.html", name="dwoch-glupich")
  */
@@ -144,6 +153,7 @@ public function  dwochglupichAction()
 {
     return $this->render('default/dwochglupich.html.twig');
 }
+
     /*
      * M
      */
