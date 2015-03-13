@@ -7,7 +7,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class ThirdController extends Controller
 {
-
     /*
      * A
      */
@@ -63,7 +62,7 @@ class ThirdController extends Controller
     {
         return $this->render('default/i-kwasne-jablko.html.twig');
     }
-    
+
     /*
      * J
      */
@@ -91,7 +90,6 @@ class ThirdController extends Controller
     {
         return $this->render('default/nadgorliwosc-gorsza.html.twig');
     }
-
 
     /*
      * O
@@ -129,6 +127,16 @@ class ThirdController extends Controller
      * W
      */
 
+
+    /**
+     * @Route("/drapiezniki-lowi-sie.html", name="drapiezniki-lowi-sie")
+     */
+    public function  drapieznikiLowiSieAction()
+    {
+        return $this->render('default/drapiezniki-lowi-sie.html.twig');
+    }
+
+
     /*
      * X
      */
@@ -140,6 +148,4 @@ class ThirdController extends Controller
     /*
      * Z
      */
-
-
 }
