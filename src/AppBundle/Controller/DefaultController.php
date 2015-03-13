@@ -138,6 +138,13 @@ class DefaultController extends Controller
      * N
      */
 
+    /**
+    * @Route("/gdzie-glowa-rzadzi.html", name="gdzie-glowa-rzadzi")
+    */
+   public function  gdzieGlowaRzadziAction()
+   {
+       return $this->render('default/gdzie-glowa-rzadzi.html.twig');
+   }
     /*
      * O
      */
