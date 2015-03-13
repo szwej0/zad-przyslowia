@@ -112,6 +112,13 @@ class ThirdController extends Controller
     /*
      * S
      */
+    /**
+    * @Route("/kto-rano-wstaje.html", name="kto-rano-wstaje")
+     */
+    public function  ktoRanoWstajeAction()
+    {
+        return $this->render('default/kto-rano-wstaje.html.twig');
+    }
 
     /*
      * T
