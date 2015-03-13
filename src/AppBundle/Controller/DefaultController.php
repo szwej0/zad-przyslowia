@@ -218,6 +218,7 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * S
      */
+
     /**
      * @Route("/jak-sobie.html", name="jak-sobie")
      */
@@ -225,6 +226,15 @@ public function  MiedzyPowiedzeniemAction()
     {
         return $this->render('default/jak-sobie.html.twig');
     }
+
+    /**
+     * @Route("/i-pity.html", name="i-pity")
+     */
+    public function  ipityAction()
+    {
+        return $this->render('default/i-pity.html.twig');
+    }
+
     /*
      * T
      */
