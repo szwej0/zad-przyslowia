@@ -21,7 +21,13 @@ class ThirdController extends Controller
     /*
      * B
      */
-
+    /**
+     * @Route("/atak-jest.html", name="atak-jest")
+     */
+    public function atakAction()
+    {
+        return $this->render('default/atak-jest.html.twig');
+    }
     /*
      * C
      */
