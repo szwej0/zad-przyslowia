@@ -15,7 +15,6 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
-
     /*
      * A
      */
@@ -386,6 +385,12 @@ public function ktopodkimdolkiAction()
     {
        return $this->render('default/Trud-czlowieczy.html.twig');
     }
-
+    /**
+     * @Route("/ktoziarno.html", name="ktoziarno")
+     */
+    public function ktoziarnoAction()
+    {
+        return $this->render('default/ktoziarno.html.twig');
+    }
 
 }
