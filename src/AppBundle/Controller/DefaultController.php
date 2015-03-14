@@ -163,6 +163,13 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * K
      */
+     /**
+    * @Route("/hilary-zapowiada.html", name="hilary-zapowiada")
+    */
+    public function hilaryZapowiadaAction()
+    {
+        return $this->render('default/hilary-zapowiada.html.twig');
+    }
 
     /*
      * L
