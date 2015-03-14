@@ -290,6 +290,14 @@ public function  dwochglupichAction()
         return $this->render('default/burke-fear.html.twig');
     }
 
+    /**
+     * @Route("/a-man.html", name="a-man")
+     */
+    public function  amanAction()
+    {
+        return $this->render('default/a-man.html.twig');
+    }
+
     /*
      * T
      */
