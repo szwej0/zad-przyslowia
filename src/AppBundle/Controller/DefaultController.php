@@ -65,6 +65,22 @@ public function  bujactolasAction()
 			return $this->render('default/dla-chcacego.html.twig');
 		}
 
+		/**
+ 		* @Route("/do-Rzymu.html", name="do-Rzymu")
+ 		*/
+		public function DoRzymuAction()
+		{
+			return $this->render('default/do-Rzymu.html.twig');
+		}
+
+		/**
+ 		* @Route("/dobry-zwyczaj.html", name="dobry-zwyczaj")
+ 		*/
+		public function DobryZwyczaj()
+		{
+			return $this->render('default/dobry-zwyczaj.html.twig');
+		}
+
     /*
      * E
      */
