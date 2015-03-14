@@ -264,6 +264,13 @@ public function  dwochglupichAction()
     /*
      * U
      */
+      /**
+     * @Route("/Trafila.html", name="Trafila")
+     */
+     public function TrafilaAction()
+     {
+        return $this->render('default/Trafila.html.twig');
+     }
 
     /*
      * V
