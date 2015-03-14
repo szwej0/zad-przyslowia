@@ -239,6 +239,14 @@ public function  MiedzyPowiedzeniemAction()
      * T
      */
 
+     /**
+     * @Route("/czlowiekowi-w-zyciu.html", name="czlowiekowi-w-zyciu")
+     */
+     public function czlowiekowiWZyciuAction()
+     {
+        return $this->render('default/czlowiekowi-w-zyciu.html.twig');
+     }
+     
     /*
      * U
      */
