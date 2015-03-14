@@ -57,6 +57,13 @@ public function  bujactolasAction()
     {
         return $this->render('default/D.html.twig');
     }
+	/**
+ 		* @Route("/dla-chcacego.html", name="dla-chcacego")
+ 		*/
+		public function dlaChcacegoAction()
+		{
+			return $this->render('default/dla-chcacego.html.twig');
+		}
 
     /*
      * E
