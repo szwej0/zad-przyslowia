@@ -281,12 +281,21 @@ public function  dwochglupichAction()
     /*
      * U
      */
+
       /**
      * @Route("/Trafila.html", name="Trafila")
      */
      public function TrafilaAction()
      {
         return $this->render('default/Trafila.html.twig');
+     }
+       /**
+     * @Route("/Nieszczescia.html", name="Nieszczescia")
+     */
+     public function NieszczesciaAction()
+     {
+        return $this->render('default/Nieszczescia.html.twig');
+
      }
 
     /*
@@ -346,11 +355,6 @@ public function ktopodkimdolkiAction()
     return $this->render('default/kto-pod-kim-dolki.html.twig');
 }
     
-    
-    
-    
-    
-
     /**
      * @Route("/zapomnialwol.html", name="zapomnialwol")
     */
