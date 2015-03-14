@@ -170,6 +170,13 @@ public function  MiedzyPowiedzeniemAction()
     {
         return $this->render('default/hilary-zapowiada.html.twig');
     }
+     /**
+    * @Route("/gabrielu.html", name="gabrielu")
+    */
+    public function gabrieluAction()
+    {
+        return $this->render('default/gabrielu.html.twig');
+    }
 
     /*
      * L
