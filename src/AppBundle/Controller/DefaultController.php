@@ -137,7 +137,13 @@ public function  MiedzyPowiedzeniemAction()
     /*
      * L
      */
-
+/**
+ * @Route("/dwoch-glupich.html", name="dwoch-glupich")
+ */
+public function  dwochglupichAction()
+{
+    return $this->render('default/dwochglupich.html.twig');
+}
     /*
      * M
      */
