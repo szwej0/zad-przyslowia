@@ -22,7 +22,13 @@ class SecondController extends Controller
     /*
      * B
      */
-
+    /**
+    * @Route("/apetyt-rosnie.html", name="apetyt-rosnie")
+    */
+    public function apetytRosnieAction()
+    {
+        return $this->render('default/apetyt-rosnie.html.twig');
+    }
     /*
      * C
      */
