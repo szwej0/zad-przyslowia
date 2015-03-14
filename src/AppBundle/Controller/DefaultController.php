@@ -334,6 +334,14 @@ public function ktopodkimdolkiAction()
     {
         return $this->render('default/zapomnialwol.html.twig');
     }
+    
+    /**
+    * @Route("/Trud-czlowieczy.html", name="Trud-czlowieczy")
+    */
+    public function TrudczlowieczyAction()
+    {
+       return $this->render('default/Trud-czlowieczy.html.twig');
+    }
 
 
 }
