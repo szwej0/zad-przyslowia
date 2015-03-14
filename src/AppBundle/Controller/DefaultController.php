@@ -392,5 +392,13 @@ public function ktopodkimdolkiAction()
     {
         return $this->render('default/ktoziarno.html.twig');
     }
+    /**
+   * @Route("/smiech.html", name="smiech")
+   */
+  public function smiechAction()
+  {
+    return $this->render('default/smiech.html.twig');
+  }
+
 
 }
