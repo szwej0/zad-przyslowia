@@ -282,6 +282,14 @@ public function  dwochglupichAction()
         return $this->render('default/i-pity.html.twig');
     }
 
+    /**
+     * @Route("/burke-fear.html", name="burke-fear")
+     */
+    public function  burkefearAction()
+    {
+        return $this->render('default/burke-fear.html.twig');
+    }
+
     /*
      * T
      */
