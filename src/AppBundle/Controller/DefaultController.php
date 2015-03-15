@@ -48,7 +48,14 @@ public function  bujactolasAction()
     /*
      * C
      */
-
+    /**
+    * @Route("/ciemnota.html", name="ciemnota")
+    */
+    public function ciemnotaAction()
+    {
+        return $this->render('default/ciemnota.html.twig');
+    }
+    
     /**
      * @Route("/D.html", name="D")
      */
