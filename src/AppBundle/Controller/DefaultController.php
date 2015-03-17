@@ -470,4 +470,12 @@ public function dlachcacegonictrudnegoAction()
     return $this->render('default/dla-chcacego-nic-trudnego.html.twig');
 }
 
+/**
+ * @Route("/kozka.html", name="kozka")
+ */
+public function kozkaAction()
+{
+    return $this->render('default/kozka.html.twig');
+}
+
 }
