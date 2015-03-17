@@ -478,4 +478,12 @@ public function kozkaAction()
     return $this->render('default/kozka.html.twig');
 }
 
+/**
+ * @Route("/biedny.html", name="biedny")
+ */
+public function biedneyAction()
+{
+    return $this->render('default/biedny.html.twig');
+}
+
 }
