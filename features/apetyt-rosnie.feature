@@ -1,5 +1,6 @@
 Feature: Web pages
 
-  Scenario: Apetyt rośnie
-    Given I am on "apetyt-rosnie.html"
+  Scenario: Apetyt rosnie
+    Given I am on homepage
+    When I follow "Apetyt rośnie..."
     Then I should see "Apetyt rośnie w miarę jedzenia."
