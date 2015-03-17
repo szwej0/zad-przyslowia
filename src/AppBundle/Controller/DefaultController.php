@@ -19,6 +19,13 @@ class DefaultController extends Controller
      * A
      */
     /**
+    * @Route("/jak-trwoga.html", name="jak-trwoga")
+    */
+    public function jaktrwogaAction()
+    {
+        return $this->render('default/jak-trwoga.html.twig');
+    }
+    /**
     * @Route("/czlek-zdechnie.html", name="czlek-zdechnie")
     */
     public function czlekZdechnieAction()
