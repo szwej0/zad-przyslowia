@@ -459,5 +459,15 @@ public function ktopodkimdolkiAction()
     return $this->render('default/smiech.html.twig');
   }
 
+   /*
+     * AA
+     */
+  /**
+ * @Route("/dla-chcacego-nic-trudnego.html", name="dla-chcacego-nic-trudnego")
+ */
+public function dlachcacegonictrudnegoAction()
+{
+    return $this->render('default/dla-chcacego-nic-trudnego.html.twig');
+}
 
 }
