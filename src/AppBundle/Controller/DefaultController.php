@@ -193,6 +193,16 @@ public function coLatoOdkladaAction()
      * K
      */
      /**
+      
+     /**
+     * @Route("/za-mundurem.html", name="za-mundurem")
+     */
+     public function zamunduremAction()
+     {
+        return $this->render('default/za-mundurem.html.twig');
+     }
+      
+      /**
     * @Route("/hilary-zapowiada.html", name="hilary-zapowiada")
     */
     public function hilaryZapowiadaAction()
