@@ -126,6 +126,21 @@ public function  MiedzyPowiedzeniemAction()
     return $this->render('default/Aby-do-wiosny.html.twig');
 }
 
+
+
+
+
+
+
+
+/**
+ * @Route("/co-lato-odklada.html", name="co-lato-odklada")
+ */
+public function coLatoOdkladaAction()
+{
+    return $this->render('default/co-lato-odklada.html.twig');
+}
+
     /*
      * G
      */
