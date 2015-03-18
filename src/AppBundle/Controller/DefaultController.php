@@ -210,7 +210,13 @@ public function coLatoOdkladaAction()
     /*
      * L
      */
-
+    /**
+    * @Route("/wrobel.html", name="Wrobel")
+    */
+    public function wrobelAction()
+    {
+        return $this->render('default/wrobel.html.twig');
+    }
 /**
  * @Route("/dwoch-glupich.html", name="dwoch-glupich")
  */
