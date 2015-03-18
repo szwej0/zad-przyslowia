@@ -1,6 +1,6 @@
 Feature: Web pages
 
-  Scenario: Mała iskierka wielki pożar wznieci.
+  Scenario: Mowa jest srebrem, a milczenie złotem.
     Given I am on homepage
-    When I follow "Mała iskierka..."
-    Then I should see "Mała iskierka wielki pożar wznieci."
+    When I follow "Mowa jest...."
+    Then I should see "Mowa jest srebrem, a milczenie złotem."

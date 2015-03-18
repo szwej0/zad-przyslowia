@@ -246,7 +246,7 @@ public function  dwochglupichAction()
     /**
     * @Route("/mowa-jest.html", name="mowa-jest")
     */
-    public function mowaJestAction()
+    public function mowaJestSrebremAction()
     {
         return $this->render('default/mowa-jest.html.twig');
     }
