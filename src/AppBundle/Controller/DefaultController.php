@@ -243,6 +243,13 @@ public function  dwochglupichAction()
     {
         return $this->render('default/mala-iskierka.html.twig');
     }
+    /**
+    * @Route("/mowa-jest.html", name="mowa-jest")
+    */
+    public function mowaJestAction()
+    {
+        return $this->render('default/mowa-jest.html.twig');
+    }
     
     /*
      * N
