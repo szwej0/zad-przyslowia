@@ -217,6 +217,13 @@ public function coLatoOdkladaAction()
     {
         return $this->render('default/wrobel.html.twig');
     }
+    /**
+    * @Route("/dmuchac.html", name="lepiej-dmuchac")
+    */
+    public function dmuchacAction()
+    {
+        return $this->render('default/dmuchac.html.twig');
+    }
 /**
  * @Route("/dwoch-glupich.html", name="dwoch-glupich")
  */
