@@ -30,6 +30,7 @@ class ThirdController extends Controller
     /*
      * C
      */
+
     /**
      * @Route("/gdyby-babcia.html", name="gdyby-babcia")
      */
@@ -37,10 +38,18 @@ class ThirdController extends Controller
     {
         return $this->render('default/gdyby-babcia.html.twig');
     }
+    
     /*
      * D
      */
-
+    
+    /**
+     * @Route("/byloby.html", name="byloby")
+     */
+    public function bylobyAction()
+    {
+        return $this->render('default/byloby.html.twig');
+    }
     /*
      * E
      */
