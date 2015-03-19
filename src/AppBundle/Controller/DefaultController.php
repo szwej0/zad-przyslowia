@@ -233,7 +233,20 @@ public function coLatoOdkladaAction()
     /*
      * L
      */
-
+    /**
+    * @Route("/wrobel.html", name="Wrobel")
+    */
+    public function wrobelAction()
+    {
+        return $this->render('default/wrobel.html.twig');
+    }
+    /**
+    * @Route("/dmuchac.html", name="lepiej-dmuchac")
+    */
+    public function dmuchacAction()
+    {
+        return $this->render('default/dmuchac.html.twig');
+    }
 /**
  * @Route("/dwoch-glupich.html", name="dwoch-glupich")
  */
