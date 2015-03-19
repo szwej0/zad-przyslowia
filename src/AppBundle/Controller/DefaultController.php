@@ -38,6 +38,22 @@ class DefaultController extends Controller
      */
     
     /**
+    * @Route("/bedziePogoda.html", name="bedziePogoda")
+    */
+    public function bedziePogodaAction()
+    {
+        return $this->render('default/bedziePogoda.html.twig');
+    }
+
+    /**
+    * @Route("/naDrabine.html", name="naDrabine")
+    */
+    public function naDrabineAction()
+    {
+        return $this->render('default/naDrabine.html.twig');
+    }
+
+    /**
  * @Route("/bujac-to-las.html", name="bujac-to-las")
  */
 public function  bujactolasAction()
