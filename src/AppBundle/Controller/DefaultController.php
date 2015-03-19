@@ -56,6 +56,13 @@ public function  bujactolasAction()
      * C
      */
     /**
+    * @Route("/utrapienia.html", name="utrapienia")
+    */
+    public function utrapieniaAction()
+    {
+        return $this->render('default/utrapienia.html.twig');
+    }
+    /**
     * @Route("/ciemnota.html", name="ciemnota")
     */
     public function ciemnotaAction()
