@@ -46,6 +46,14 @@ class DefaultController extends Controller
     }
 
     /**
+    * @Route("/naDrabine.html", name="naDrabine")
+    */
+    public function naDrabineAction()
+    {
+        return $this->render('default/naDrabine.html.twig');
+    }
+
+    /**
  * @Route("/bujac-to-las.html", name="bujac-to-las")
  */
 public function  bujactolasAction()
