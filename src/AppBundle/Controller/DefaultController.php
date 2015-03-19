@@ -272,6 +272,20 @@ public function  dwochglupichAction()
     {
     return $this->render('default/dlatego-dwie-uszy.html.twig');
     }
+    /**
+    * @Route("/mala-iskierka.html", name="mala-iskierka")
+    */
+    public function malaIskierkaAction()
+    {
+        return $this->render('default/mala-iskierka.html.twig');
+    }
+    /**
+    * @Route("/mowa-jest.html", name="mowa-jest")
+    */
+    public function mowaJestSrebremAction()
+    {
+        return $this->render('default/mowa-jest.html.twig');
+    }
     
     /*
      * N
