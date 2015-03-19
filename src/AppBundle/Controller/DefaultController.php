@@ -78,6 +78,14 @@ public function  bujactolasAction()
     {
         return $this->render('default/utrapienia.html.twig');
     }
+    
+    /**
+    * @Route("/nauczycielem.html", name="nauczycielem")
+    */
+    public function nauczycielemAction()
+    {
+        return $this->render('default/nauczycielem.html.twig');
+    }
     /**
     * @Route("/ciemnota.html", name="ciemnota")
     */
