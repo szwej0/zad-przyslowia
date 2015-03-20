@@ -42,6 +42,7 @@ class ThirdController extends Controller
     /*
      * D
      */
+
     
     /**
      * @Route("/byloby.html", name="byloby")
@@ -50,6 +51,10 @@ class ThirdController extends Controller
     {
         return $this->render('default/byloby.html.twig');
     }
+
+
+
+
     /*
      * E
      */
@@ -91,6 +96,13 @@ class ThirdController extends Controller
     /*
      * K
      */
+    /**
+     * @Route("/jak-krew.html", name="jak-krew")
+     */
+    public function  JakKrewAction()
+    {
+        return $this->render('default/jak-krew.html.twig');
+    }
 
     /*
      * L
